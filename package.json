@@ -56,5 +56,14 @@
       "prettier --write",
       "git add"
     ]
-  }
+  },
+  "keywords": [
+    "React",
+    "Hooks",
+    "Custom Hooks"
+  ],
+  "bugs": {
+    "url": "https://github.com/yisheng90/react-just-use-hooks/issues"
+  },
+  "homepage": "https://github.com/yisheng90/react-just-use-hooks#readme"
 }
