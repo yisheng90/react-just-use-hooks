@@ -1,1 +1,5 @@
-export * from '@LifeCycle';
+import * as lifeCycleHooks from '@LifeCycle'
+
+export default {
+  ...lifeCycleHooks,
+}
