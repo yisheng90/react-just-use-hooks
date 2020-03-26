@@ -1,0 +1,30 @@
+{
+  "name": "react-just-use-hooks",
+  "version": "1.0.0",
+  "description": "A collection of re-useable react hooks",
+  "main": "index.js",
+  "repository": "https://github.com/yisheng90/react-just-use-hooks.git",
+  "author": "Lee Yi Sheng <yisheng@yishenglee.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "@babel/preset-typescript": "^7.9.0",
+    "webpack-cli": "^3.3.11",
+    "@types/react": "^16.9.25",
+    "@types/react-dom": "^16.9.5",
+    "babel-loader": "^8.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "peerDependecies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
