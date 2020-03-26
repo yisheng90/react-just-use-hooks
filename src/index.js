@@ -1,1 +1,1 @@
-export * from './useComponentDidMount';
+export * from '@LifeCycle';
