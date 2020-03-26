@@ -17,6 +17,7 @@
       "es2017.object",
       "dom"
     ],
+    "types": ["node", "jest"],
     "module": "es6",
     "removeComments": true,
     "alwaysStrict": true,

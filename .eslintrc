@@ -1,0 +1,39 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "jquery": true,
+    "mocha": true,
+    "jest/globals": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "module"
+  },
+  "extends": [
+    "eslint:recommended",
+    "airbnb",
+    "prettier",
+    "plugin:jest/recommended"
+  ],
+  "plugins": ["import", "jest"],
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": "./webpack.config.js"
+      }
+    }
+  },
+  "rules": {
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx", ".tsx", "ts"]
+      }
+    ],
+    "jsx-a11y/label-has-for": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/prefer-default-export": "off",
+    "import/extensions": "off"
+  }
+}
