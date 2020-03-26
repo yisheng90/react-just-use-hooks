@@ -1,0 +1,5 @@
+{
+  "testMatch": ["<rootDir>/src/**/?(*.)+(spec|test).(ts|tsx|mjs|js|jsx)"],
+  "moduleFileExtensions": ["js", "jsx", "json", "node", "ts", "tsx"],
+  "collectCoverage": true
+}
